@@ -1,0 +1,11 @@
+name = Feature Manage Relationships VBO
+description = Manage CiviCRM Relationships View
+core = 7.x
+package = CiviCRM
+version = 7.x-1.0
+project = feature_manage_relationships_vbo
+dependencies[] = ctools
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = manage_relationships

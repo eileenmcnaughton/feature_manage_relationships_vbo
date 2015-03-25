@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Feature Manage Relationships VBO feature.
+ */
+
+include_once 'feature_manage_relationships_vbo.features.inc';
